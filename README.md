@@ -13,6 +13,7 @@ it can check whether it was successful or not. Of course, it can also read all t
 This is tested using cat command. 
 
 In the timer interruption we only do three things: 
+
 1. Look for the pid
 2. Change its state to ready
 3. Wake up the dispatching thread
